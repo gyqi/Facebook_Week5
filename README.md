@@ -19,7 +19,7 @@ Walkthrough of user stories:
 
 Required + Optional
 
-![Video Walkthrough](carousel_required.gif?raw=true)
+![Video Walkthrough](facebook_week5.gif?raw=true)
 
 Open-Source Library: none
 GIF created with LiceCap.
