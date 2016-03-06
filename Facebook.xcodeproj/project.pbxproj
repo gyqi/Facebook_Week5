@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		245E3AF91C8B63870044D5BF /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245E3AF71C8B63870044D5BF /* BaseTransition.swift */; settings = {ASSET_TAGS = (); }; };
+		245E3AFA1C8B63870044D5BF /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245E3AF81C8B63870044D5BF /* FadeTransition.swift */; settings = {ASSET_TAGS = (); }; };
+		245E3AFD1C8B69510044D5BF /* PhotoTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245E3AFC1C8B69510044D5BF /* PhotoTransition.swift */; settings = {ASSET_TAGS = (); }; };
+		245E3AFF1C8B71650044D5BF /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245E3AFE1C8B71650044D5BF /* Common.swift */; settings = {ASSET_TAGS = (); }; };
 		245F5E891C8946B200093DAC /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245F5E881C8946B200093DAC /* PhotoViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		42167656198E3220008CCBC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42167655198E3220008CCBC3 /* AppDelegate.swift */; };
 		4216765B198E3220008CCBC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42167659198E3220008CCBC3 /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		245E3AF71C8B63870044D5BF /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		245E3AF81C8B63870044D5BF /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		245E3AFC1C8B69510044D5BF /* PhotoTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTransition.swift; sourceTree = "<group>"; };
+		245E3AFE1C8B71650044D5BF /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		245F5E881C8946B200093DAC /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoViewController.swift; path = ../PhotoViewController.swift; sourceTree = "<group>"; };
 		42167650198E3220008CCBC3 /* Facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42167654198E3220008CCBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +80,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		245E3AFB1C8B638D0044D5BF /* Transition Files */ = {
+			isa = PBXGroup;
+			children = (
+				245E3AF71C8B63870044D5BF /* BaseTransition.swift */,
+				245E3AF81C8B63870044D5BF /* FadeTransition.swift */,
+				245E3AFC1C8B69510044D5BF /* PhotoTransition.swift */,
+			);
+			name = "Transition Files";
+			sourceTree = "<group>";
+		};
 		42167647198E3220008CCBC3 = {
 			isa = PBXGroup;
 			children = (
@@ -93,8 +111,10 @@
 		42167652198E3220008CCBC3 /* Facebook */ = {
 			isa = PBXGroup;
 			children = (
+				245E3AFB1C8B638D0044D5BF /* Transition Files */,
 				42167674198EAAC6008CCBC3 /* View Controllers */,
 				42167655198E3220008CCBC3 /* AppDelegate.swift */,
+				245E3AFE1C8B71650044D5BF /* Common.swift */,
 				42167659198E3220008CCBC3 /* Main.storyboard */,
 				4216765C198E3220008CCBC3 /* Images.xcassets */,
 				42167653198E3220008CCBC3 /* Supporting Files */,
@@ -246,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				429277A0198F068E00E19641 /* StoryViewController.swift in Sources */,
+				245E3AF91C8B63870044D5BF /* BaseTransition.swift in Sources */,
 				429277A2198F35B600E19641 /* MessagesViewController.swift in Sources */,
 				42167676198ECA7C008CCBC3 /* NotificationsViewController.swift in Sources */,
 				42167656198E3220008CCBC3 /* AppDelegate.swift in Sources */,
@@ -255,6 +276,9 @@
 				42167678198ECE0E008CCBC3 /* RequestsViewController.swift in Sources */,
 				42167673198EAABC008CCBC3 /* SettingsViewController.swift in Sources */,
 				4216767A198ECE88008CCBC3 /* NewsFeedViewController.swift in Sources */,
+				245E3AFD1C8B69510044D5BF /* PhotoTransition.swift in Sources */,
+				245E3AFA1C8B63870044D5BF /* FadeTransition.swift in Sources */,
+				245E3AFF1C8B71650044D5BF /* Common.swift in Sources */,
 				245F5E891C8946B200093DAC /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
